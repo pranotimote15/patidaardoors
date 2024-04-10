@@ -1,0 +1,47 @@
+.product-breatcome_area {
+ 
+ background-position: center center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 141px 0 143px;
+}
+
+
+.breatcome_title_inner h2 {
+ color: #fff;
+ margin: 0;
+ font-size: 23px;
+ margin-bottom: 6px;
+ font-weight: 600;
+ text-align: center;
+ text-transform: uppercase;
+}
+.breatcome_content ul {
+ text-align: center;
+}
+.breatcome_content ul li {
+ list-style: none;
+ color: #fff;
+ font-size: 15px;
+ font-weight: 500;
+ text-transform: capitalize;
+}
+.breatcome_content ul li a {
+ color: #fff;
+ text-transform: uppercase;
+ font-size: 12px;
+ font-weight: 500;
+ margin-right: 5px;
+}
+.breatcome_content ul li a i {
+ margin-left: 5px;
+}
+
+
+/*Product section*/
+
+.product-section-1{
+  padding: 45px 0 70px;
+}
+
+/*End of product section*/

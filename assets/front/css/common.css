@@ -1,0 +1,29 @@
+/* Call to action */
+.product-grid-cta{
+    padding: 50px;
+}
+.call-to-caption
+{  
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.quote-btn{
+    background-color: #85c13f;
+    border: none;
+    padding: 15px;
+    width: 150px;
+    font-size: 18px;
+    color: #fff;
+}
+.contact-btn{
+    background: none;
+    border: 2px solid #85c13f;
+    padding: 12px;
+    width: 150px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 15px;
+}
+/* Call to action */
+
+

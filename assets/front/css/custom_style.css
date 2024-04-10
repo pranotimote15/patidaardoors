@@ -1,0 +1,25 @@
+/* Header and Slider   */
+.form-error {
+    color:red;
+}
+.mail_status{
+    color: green;
+    text-align: center;
+    padding: 5px;
+}
+.btn_send_mail {
+    background: #e02845;
+    border: 0;
+    display: inline-block;
+    padding: 12px 38px;
+    border-radius: 4px;
+    color: #fff;
+    transition: .5s;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.btn_send_mail:hover {
+    background: #fff;
+    color: #e02845;
+    border: 2px solid #e02845; 
+}

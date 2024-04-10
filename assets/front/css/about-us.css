@@ -1,0 +1,126 @@
+.breatcome_area {
+ background:url(assets/images/brd-bg.jpg);
+ background-position: center center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 141px 0 143px;
+}
+.breatcome_title_inner h2 {
+ color: #fff;
+ margin: 0;
+ font-size: 23px;
+ margin-bottom: 6px;
+ font-weight: 600;
+ text-align: center;
+ text-transform: uppercase;
+}
+.breatcome_content ul {
+ text-align: center;
+}
+.breatcome_content ul li {
+ list-style: none;
+ color: #fff;
+ font-size: 15px;
+ font-weight: 500;
+ text-transform: capitalize;
+}
+.breatcome_content ul li a {
+ color: #fff;
+ text-transform: uppercase;
+ font-size: 12px;
+ font-weight: 500;
+ margin-right: 5px;
+}
+.breatcome_content ul li a i {
+ margin-left: 5px;
+}
+/* Who we are section  */
+   .about-us-section{
+     padding: 80px 0 70px;
+   }
+
+
+
+/*End who we aer section*/
+
+
+
+/*our infrastructure*/
+
+.most_popular_area {
+	padding: 80px 0 70px;
+}
+.column-about{
+    max-width: 50%;
+    padding: 0 4px;
+    display: inline-block;
+}
+
+.infra-row-1{
+  margin-bottom: 20px;
+}
+
+
+/*End our infrastructure*/
+
+/*team Area */
+
+
+.team_area {
+	padding: 80px 0 70px;
+}
+.single_team {
+	position: relative;
+	margin-bottom: 30px;
+	transition:.5s;
+}
+.single_team:hover .single_team_content{
+	top: 54%;
+	opacity:1;
+}
+.single_team_content {
+	background: rgba(0,0,0,0.7);
+	padding: 20px 0 33px;
+	width: 86%;
+	margin: auto;
+	position: absolute;
+	top: 68%;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition:.5s;
+}
+.single_team_title {
+	text-align: center;
+}
+.single_team_title h2 {
+	font-size: 18px;
+	color: #fff;
+}
+.single_team_title span {
+	font-size: 14px;
+	color: #fff;
+}
+.single_team_icon {
+	text-align: center;
+	padding-top: 13px;
+}
+.single_team_icon i {
+	font-size: 19px;
+	background: #6123f8;
+	color: #fff;
+	height: 32px;
+	width: 32px;
+	margin: 3px;
+	line-height: 32px;
+}
+
+/* End team area*/
+
+
+/*USP Section*/
+.about-usp-section{
+   background: #00663a;
+   padding: 70px 30px;
+}
+/*USP Section*/

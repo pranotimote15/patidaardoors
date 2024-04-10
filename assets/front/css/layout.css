@@ -1,0 +1,449 @@
+
+.new_banner{
+    background-image: url('https://www.proventuseducation.com/assets/images/overseas-education-consultant.jpg'); 
+    height: 80vh; 
+    width: 100%; 
+    background-repeat: no-repeat; 
+    background-position: center;    
+    background-size: cover;
+}
+
+.hero-section-overseas .container .right .from-box input, .from-box textarea, .from-box select{
+    background: transparent;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+/* select{
+    background: transparent;
+    color: #fff;
+} */
+#toggle_view{
+    display: none;
+}
+
+.Heading_clr{
+    color: #254487;
+}
+.readmore_btn:hover {
+    cursor: pointer;
+    /* padding: 10px; */
+    /* border: 1px solid #E02863; */
+    /* border-radius: 23px; */
+    font-weight: 500;
+    /* margin-top: 10px; */
+    background: transparent;
+    color: #E02863;
+    text-shadow: 1px 1px 1px black;
+}
+
+.about_text{
+    line-height: 1.7;
+    font-size: 18px;
+    /* text-align: center; */
+}
+
+.about_img{
+    text-align: end;
+}
+
+.about_img img{
+    /* width: 60%; */
+}
+.con_layer{
+    background-color: #3F4D88;
+    padding: 36px 30px;
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+    margin: 15px 0;
+    position: relative;
+    height: 280px;
+}
+
+.ribbon{
+    width: 40px;
+    height: 22px;
+    background-color: red;
+    position: absolute;
+    right: 38px;
+    top: 0;
+    -webkit-animation: drop forwards 0.8s 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+            animation: drop forwards 0.8s 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.ribbon:before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: -18px;
+    border-left: 20px solid red;
+    border-right: 20px solid red;
+    border-bottom: 18px solid transparent;
+}
+
+.common_title h1 {
+    font-size: 35px;
+}
+.con_title{
+    margin-bottom: 1rem;
+}
+
+.prefer_content{
+    /* text-align: center; */
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 25px 0;
+}
+
+.guid_content ul li{
+    margin: 15px 0;
+    font-weight: 500;
+    line-height: 1.7;
+
+}
+
+.guide_btn{
+    border: 2px solid red;
+    border-radius: 25px;
+    font-size: 18px;
+    color: red;
+    padding: 10px 41px;
+    font-weight: 600;
+    margin: 21px 0 0 30px;
+}
+.guide_btn:hover{
+    color: red;
+}
+
+.guid_title{
+    margin: 0 0 25px 0;
+}
+.guide_img{
+    height: 450px;
+    width: 100%;
+}
+
+.guide_img img {
+    border-radius: 15px;
+    /* float: right; */
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+
+}
+.connect_btn:hover{
+    color: #fff;
+}
+.connect_btn{
+    border: 2px solid #fff;
+    border-radius: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 41px;
+    /* font-weight: 600; */
+    margin: 0 0 0 30px;
+}
+.con_data {
+height: 500px;
+}
+.con_data img{
+    width: 100%;
+    position: relative;
+    /* height: 500px; */
+    object-fit: fill;
+    height: 100%;
+}
+
+.int_div .item{
+    height: 150px;
+    width: 150px;
+}
+.int_div .item img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.prefer_main_block{
+    position: relative;
+}
+
+.quest_img {
+    position: absolute;
+    right: 0;
+    height: 144px;
+    width: auto;
+    top: -25px;
+}
+
+.quest_img  img{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    border-radius: 25px 0 0 25px !important;
+}
+.card-header{
+    background: #3F4D88;
+    /* color: #fff !important; */
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 25px 0 0 25px !important;
+}
+.card-header a{
+    color: #fff !important;
+}
+
+.prefer{
+    background: #1F2732;
+    color: #fff;
+}
+
+.conn_text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;    
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.conn_text h4{
+    font-size: 3.5rem;
+}
+
+.blog_carousel img{
+    border-radius: 24px;
+    width: 100%;
+}
+.blog_btn{
+    border: 2px solid red;
+    border-radius: 25px;
+    font-size: 18px;
+    color: red;
+    padding: 10px 41px;
+    font-weight: 600;
+    /* margin: 21px 0 0 30px; */
+}
+
+.blog_selected{
+    height: 105px;
+}
+
+.blog_selected img {
+    height: 100%;
+    width: 100%;
+}
+
+.faq_card{
+    margin-bottom: 15px;
+}
+
+.faq_img{
+    height: 531px;
+    width: 100%;
+}
+
+.faq_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.faq_title{
+    margin-bottom: 50px;
+}
+
+.faq_card_title{
+    font-size: 16px;
+}
+
+
+.blog_title h6{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+.con_title h3{
+    color: #fff;
+}
+.title h2{
+    color: #fff;
+}
+.conn_text h4{
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    h2{
+        font-size: 28px;
+    }
+    .about_img {
+        text-align: center;
+    }
+
+    .con_title h3{
+        color: #fff;
+    }
+    .ribbon{
+        height: 37px;
+    }
+    .con_data {
+        height: 350px;
+    }
+
+    .title h2{
+        color: #fff;
+        font-size: 28px;
+    }
+
+    .guid_content{
+        margin-bottom: 20px;
+        padding: 0 0 0 20px;
+    }
+
+    .conn_text h4{
+        font-size: 1.8rem;
+        color: #fff;
+    }
+
+    .connect_btn{
+        margin: 15px 0 0 0;
+    }
+
+    .faq_img{
+        display: none;
+    }
+    
+    .carousel .carousel-item{
+        min-height: 0;
+    }
+
+    .carousel{
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    .about_img {
+        text-align: center;
+    }
+
+    .con_title h3{
+        color: #fff;
+    }
+    .ribbon{
+        height: 28px;
+    }
+    .con_data {
+        height: 350px;
+    }
+
+    .con_layer{
+        height: 400px;
+    }
+
+    .title h2{
+        color: #fff;
+        font-size: 28px;
+    }
+
+    .guid_content{
+        margin-bottom: 20px;
+        padding: 0 0 0 20px;
+    }
+
+    .conn_text h4{
+        font-size: 1.8rem;
+        color: #fff;
+    }
+
+    .connect_btn{
+        margin: 15px 0 0 0;
+    }
+
+    .faq_img{
+        display: none;
+    }
+    
+    .carousel .carousel-item{
+        min-height: 0;
+    }
+
+    .carousel{
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    .about_img {
+        text-align: center;
+    }
+
+    .con_title h3{
+        color: #fff;
+    }
+    .ribbon{
+        height: 28px;
+    }
+    .con_data {
+        height: 350px;
+    }
+
+    .con_layer{
+        height: 380px;
+        padding: 36px 5px;
+    }
+
+    .title h2{
+        color: #fff;
+        font-size: 28px;
+    }
+
+    .guid_content{
+        margin-bottom: 20px;
+        padding: 0 0 0 20px;
+    }
+
+    .conn_text h4{
+        font-size: 1.8rem;
+        color: #fff;
+    }
+
+    .connect_btn{
+        margin: 15px 0 0 0;
+    }
+
+    /* .faq_img{
+        display: none;
+    } */
+    
+    .carousel .carousel-item{
+        min-height: 0;
+    }
+
+    .carousel{
+        padding-bottom: 30px;
+    }
+}

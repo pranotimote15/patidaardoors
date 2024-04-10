@@ -1,0 +1,1708 @@
+.common_sec {
+    margin: 60px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+}
+
+.new_banner {
+    background-image: url('https://www.proventuseducation.com/assets/images/overseas-education-consultant.jpg');
+    height: 85vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.india_banner {
+    background-image: url('https://www.proventuseducation.com/assets/images/india_banner.jpg');
+    height: 85vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_btn{
+    display: none;
+}
+.new_banner2 {
+    background-image: url('https://www.proventuseducation.com/assets/images/new_banner2.png');
+    height: 85vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.india_banner h3{
+    font-size: 18px;
+    margin: 12px 0 20px 0;
+}
+.banner_content_div {
+    height: 85vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(37, 68, 135, 1);
+    opacity: 0.6;
+}
+
+.hero-section-overseas .container .right .from-box input,
+.from-box textarea,
+.from-box select {
+    background: transparent;
+}
+
+
+.banner_content h1 {
+    color: #fff;
+    font-size: 80px;
+}
+
+.banner_content {
+    font-size: 24px;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.banner2_btn {
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 9px 45px;
+    background: #E02845;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.whyUs {
+    background: #254487;
+    color: #fff;
+    height: 500px;
+}
+
+.why_title h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.why_title {
+    padding: 12px 0;
+}
+
+/* .whyus_container{
+    position: relative;
+    height: 600px;
+}
+
+.whyus_container img{
+    height: 100%;
+    object-fit: fill;
+}
+.why-us{
+    background-image: url('https://www.proventuseducation.com/assets/images/why_us_bg.png');
+    height: 75vh; 
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+}
+
+.why_container{
+    padding-top: 45px;
+    position: absolute;
+    top: 0;
+    margin: 0 0 0 150px;
+}
+
+.why_container h1{
+    font-size: 34px;
+    margin-bottom: 20px;
+} */
+
+#toggle_view {
+    display: none;
+}
+
+.Heading_clr {
+    color: #E32D33;
+}
+
+.readmore_btn {
+    text-transform: capitalize;
+}
+
+.prefer_title h2 {
+    color: #fff !important;
+    /* font-size: 28px; */
+}
+
+.readmore_btn:hover {
+    cursor: pointer;
+    /* padding: 10px; */
+    /* border: 1px solid #E32D33; */
+    /* border-radius: 23px; */
+    font-weight: 500;
+    /* margin-top: 10px; */
+    background: transparent;
+    color: #E32D33;
+    text-shadow: 1px 1px 1px black;
+}
+
+.about_text {
+    /* line-height: 1.7; */
+    font-size: 17px;
+    /* text-align: center; */
+}
+
+.about_img {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.about_img img {
+    width: 70%;
+}
+
+.con_layer {
+    background-color: #254487;
+    padding: 36px 30px;
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+    margin: 15px 0;
+    position: relative;
+    height: 280px;
+}
+
+.india_layer{
+    height: 371px;
+}
+
+.india_layer .con_title h3{
+    font-size: 26px;
+}
+
+.ribbon {
+    width: 40px;
+    height: 22px;
+    background-color: #E32D33;
+    position: absolute;
+    right: 38px;
+    top: 0;
+    -webkit-animation: drop forwards 0.8s 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation: drop forwards 0.8s 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ribbon:before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: -18px;
+    border-left: 20px solid #E32D33;
+    border-right: 20px solid #E32D33;
+    border-bottom: 18px solid transparent;
+}
+
+.common_title h1 {
+    font-size: 35px;
+}
+
+.con_title {
+    margin-bottom: 1rem;
+}
+
+.prefer_content {
+    /* text-align: center; */
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 25px 0;
+}
+
+.guid_content ul {
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    font-size: 17px;
+}
+
+.guid_content ul li {
+    margin: 15px 0;
+    font-weight: 500;
+    line-height: 1.7;
+
+}
+
+.guide_btn {
+    border: 2px solid #E32D33;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #E32D33;
+    padding: 10px 41px;
+    font-weight: 600;
+    margin: 21px 0 0 0;
+    text-transform: capitalize;
+}
+
+.guide_btn:hover {
+    color: #E32D33;
+}
+
+.req_sub_head {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.guid_title {
+    margin: 0 0 25px 0;
+}
+
+.guide_img {
+    height: 450px;
+    width: 100%;
+}
+
+.guide_img img {
+    border-radius: 15px;
+    /* float: right; */
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+
+}
+
+.connect_btn:hover {
+    color: #fff;
+    background: #254487;
+    border: 2px solid #254487;
+
+}
+
+.common_style {
+    margin: 60px 0px !important;
+}
+
+.connect_btn {
+    border: 2px solid #E02845;
+    border-radius: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #E02845;
+    padding: 10px 41px;
+    /* font-weight: 600; */
+    margin: 300px 625px 0 0;
+    text-transform: capitalize;
+}
+
+.india_btn{
+    border: 2px solid #fff;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 8px 35px;
+    margin: 0;
+}
+.india_btn:hover {
+    color: #101010 !important;
+    background: #fff !important;
+    border: 2px solid #fff !important;
+    }
+
+.abroad_btn {
+    border: 2px solid #E02845;
+    border-radius: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #E02845;
+    padding: 10px 41px;
+    /* font-weight: 600; */
+    margin: 0;
+}
+
+.con_data {
+    /* height: 500px; */
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.con_data img {
+    position: relative;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.abroad_bg_img img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.int_div .item {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.int_div .item img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.prefer_main_block {
+    position: relative;
+}
+
+.quest_img {
+    position: absolute;
+    right: 0;
+    height: 144px;
+    width: auto;
+    top: -25px;
+}
+
+.quest_img img {
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    border-radius: 25px !important;
+}
+
+.card-header {
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 25px !important;
+    box-shadow: 2px 1px 2px 2px lightgrey;
+    cursor: pointer;
+}
+
+.card-header .title h3 {
+    font-size: 18px;
+}
+
+.card-header:not(.collapsed) .rotate-icon {
+    transform: rotate(180deg);
+}
+
+.accordion>.card {
+    overflow: visible;
+}
+
+.card-header .accicon {
+    float: right;
+    font-size: 40px;
+    width: 1.2em;
+    color: #254487;
+    margin: -37px 0 0 0;
+}
+
+.card-header a {
+    color: #000 !important;
+}
+
+.prefer {
+    background: #1F2732;
+    color: #fff;
+}
+
+.contact_india{
+    margin-top: -106px !important;
+    margin-left: 320px !important;
+}
+.conn_text {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    /* bottom: 0px; */
+    margin-top: -116px;
+    margin-left: 114px;
+}
+
+.conn_text h4 {
+    font-size: 3.5rem;
+    display: none;
+}
+
+.abroad_bg_cont h4 {
+    font-size: 3.5rem;
+    display: block;
+}
+
+.blog_title h5 {
+    color: #fff;
+}
+
+.blog_video {
+    width: 578px;
+    height: 392px;
+}
+
+.blog_video iframe {
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+}
+
+.blog_inner .blog_carousel {
+    height: 350px;
+}
+
+.blog_carousel img {
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.blog_btn {
+    border: 2px solid #E32D33;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #E32D33;
+    padding: 10px 41px;
+    font-weight: 600;
+    /* margin: 21px 0 0 30px; */
+}
+
+.blog_selected {
+    height: 105px;
+}
+
+.blog_selected img {
+    height: 100%;
+    width: 100%;
+}
+
+.card-header {
+    border: 1px solid #254487;
+}
+
+.faq_sec {
+    margin-top: 100px;
+}
+
+.faq_content {
+    /* background-image: url('../images/image4.png'); */
+    /* background-position: left; */
+    /* background-repeat: no-repeat; */
+    /* background-size: left; */
+}
+
+.faq_card {
+    margin-bottom: 15px;
+}
+
+.faq_img {
+    height: 100%;
+    width: 100%;
+}
+
+.faq_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.faq_title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.faq_card_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.faq_card_header {
+    background: #3F4D88;
+    /* color: #fff !important; */
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 25px 0 0 25px !important;
+}
+
+.faq_card_header a {
+    color: #fff !important;
+}
+
+.faq_main .accordion .card .card-header .card-link:after {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+}
+
+
+.faq_main .accordion .card .card-header .btn-header-link.collapsed:after {
+    content: "\f106";
+}
+
+.blog_title h6 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.carousel .carousel-item {
+    min-height: 0;
+}
+
+.carousel-caption {
+    border-radius: 0 0 25px 20px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* color: #fff; */
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+.con_title h3 {
+    color: #fff;
+}
+
+.title h2 {
+    color: #fff;
+}
+
+.why_titles h2 {
+    color: #000;
+}
+
+.conn_text h4 {
+    color: #254487;
+}
+
+.int_div .owl-item .item img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 1px 2px 4px 6px lightgray;
+}
+
+.int_div .owl-stage-outer {
+    padding: 10px 0 65px 0;
+    margin: auto;
+    text-align: center;
+}
+
+.flag_name {
+    color: #284688;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.owl-item .item img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.item {
+    position: relative;
+}
+
+.item_text_overlay {
+    position: absolute;
+    /* top: 0; */
+    bottom: 20px;
+    /* width: 100%; */
+    right: 0;
+    left: 0;
+    /* color: #fff; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.item_text_overlay h6 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+.item_title h6 {
+    color: #254487;
+    text-transform: capitalize;
+}
+
+.choose_img1 {
+    position: relative;
+}
+
+.choose_img2 {
+    position: relative;
+}
+
+.choose_img1::before {
+    position: absolute;
+    content: '';
+    border: 3px solid #254487;
+    padding: 148px;
+    border-radius: 13px;
+    z-index: -1;
+}
+
+.choose_img1 img {
+    margin: 20px 0 0 20px;
+    border-radius: 18px;
+}
+
+.choose_img2::before {
+    position: absolute;
+    content: '';
+    border: 3px solid #254487;
+    padding: 148px;
+    border-radius: 13px;
+    margin: -41px 0 0 -49px;
+    z-index: -1;
+}
+
+.choose_img2 img {
+    margin: -22px 10px 14px -32px;
+}
+
+.comman_para_css {
+    background: #254487;
+    color: #fff;
+    padding: 24px;
+    margin: 10px 0;
+    border-radius: 18px;
+    width: 100%;
+    opacity: 0.9;
+    height: 192px;
+}
+
+.comman_para_css h3 {
+    margin-top: 0;
+}
+
+.req_img_div {
+    position: relative;
+}
+
+.req_cont_div {
+    position: absolute;
+    bottom: -60px;
+    right: 60px;
+}
+
+.why_choose_img {
+    margin-top: 47px;
+}
+
+.choose_img_main p {
+    color: #000;
+}
+
+.choose_img_main ul {
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    font-size: 17px;
+}
+
+/* carousel  */
+
+.int_div1 .owl-nav {
+    display: block;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: -207px;
+    height: 78px;
+    width: 50px;
+    line-height: 76px;
+    border: 1px solid #254487;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 25px;
+    color: #254487;
+    transition: 0.5s;
+}
+
+.owl-prev:hover {
+    background: #254487;
+    color: #fff;
+}
+
+.owl-next:hover {
+    background: #254487;
+    color: #fff;
+}
+
+.abroad_card-header {
+    border: 1px solid #254487;
+    background: #254487 !important;
+    color: #fff !important;
+}
+
+.abroad_card-header .title h3 {
+    font-size: 18px;
+    color: #fff !important;
+}
+
+.abroad_card-header .accicon {
+    float: right;
+    font-size: 30px !important;
+    width: 0.9em;
+    color: #fff;
+    margin: -36px 0px 0 0 !important;
+}
+
+.testi_list .owl-next {
+    display: none;
+}
+
+.testi_list .owl-prev {
+    display: none;
+}
+
+.blogs .carousel-control-next,
+.carousel-control-prev {
+    display: none;
+}
+
+.dubai-knowledge-demo{
+    margin-bottom: 20px;
+    text-align: start !important;
+    margin-left: 30px;
+}
+
+.footer-buttom-area{
+    padding: 0 !important;
+}
+
+@media (min-width: 1401px) and (max-width: 1900px) {
+    .connect_btn {
+        border: 2px solid #E02845;
+        border-radius: 25px;
+        font-size: 22px;
+        font-weight: 700;
+        color: #E02845;
+        padding: 10px 41px;
+        /* font-weight: 600; */
+        margin: 195px 452px 0 0;
+    }
+
+    .abroad_btn {
+        margin: 0;
+    }
+
+    .india_btn{
+        margin: 0;
+    }
+    .from-box input {
+        height: 43px;
+
+    }
+
+    .hero-section-overseas .container .right .from-box input,
+    .from-box textarea,
+    .from-box select {
+        height: 43px;
+        background-color: rgba(255, 255, 255, 0.4) !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .india_banner {
+        height: 90vh;
+        background-position: right;
+    }
+    .new_banner {
+        height: 100vh;
+    }
+    .contact_india {
+        margin-top: -75px !important;
+        margin-left: 230px !important;
+    }
+    .banner_heading {
+        font-size: 40px !important;
+    }
+
+    .conn_text {
+
+        margin-top: -90px;
+        margin-left: 114px;
+    }
+
+    .from-box input {
+        height: 43px;
+
+    }
+
+    .hero-section-overseas .container .right .from-box input,
+    .from-box textarea,
+    .from-box select {
+        height: 43px;
+        background-color: rgba(255, 255, 255, 0.4) !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .india_banner{
+        height: 55vh;
+    }
+    .india_banner_form{
+        display: none;
+    }
+    .banner_heading{
+        text-align: left;
+        font-size: 40px;
+    }
+    .india_banner p{
+        text-align: left;
+        font-size: 21px;
+    }
+    .banner_btn{
+        display: block;
+        border: 2px solid #fff;
+        border-radius: 25px;
+        font-size: 16px;
+        color: #fff;
+        padding: 12px 18px;
+        font-weight: 600;
+        margin: 10px 0 0 0;
+        text-transform: capitalize;
+    }
+    .banner_btn:hover{
+        color: #fff;
+    }
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .about_img {
+        text-align: center;
+    }
+
+    .con_title h3 {
+        color: #fff;
+    }
+
+    .ribbon {
+        height: 28px;
+    }
+
+    /* .con_data {
+        height: 350px;
+    } */
+
+    .con_layer {
+        height: 380px;
+        padding: 36px 5px;
+    }
+
+    .title h2 {
+        color: #fff;
+        font-size: 28px;
+    }
+
+    .guid_content {
+        margin-bottom: 20px;
+        padding: 0 0 0 20px;
+    }
+
+    .conn_text h4 {
+        font-size: 1.8rem;
+        color: #fff;
+    }
+
+    .connect_btn {
+        margin: 15px 0 0 0;
+    }
+
+    /* .faq_img{
+        display: none;
+    } */
+
+    .carousel .carousel-item {
+        min-height: 0;
+    }
+
+    .carousel {
+        padding-bottom: 30px;
+    }
+
+
+    .banner_content h1 {
+        font-size: 40px;
+    }
+
+    .banner_content p {
+        font-size: 20px;
+    }
+
+    .why-us {
+        height: 45vh;
+    }
+
+    .why_container {
+        padding-top: 35px;
+    }
+
+    .why_container h1 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .about_text {
+        line-height: 1.7;
+        font-size: 15px;
+        font-weight: 500;
+        /* text-align: center; */
+    }
+
+    .banner2_btn {
+        font-size: 17px;
+        border-radius: 25px;
+        padding: 10px 25px;
+        background: #E02845;
+        color: #fff;
+    }
+
+    .new_banner2 {
+        /* height: 50vh; */
+    }
+
+    .banner_content_div {
+        height: 50vh;
+    }
+
+    .req_img_div {
+        display: none;
+    }
+
+    .req_cont_div {
+        position: relative;
+        bottom: 0;
+    }
+
+    .faq_sec {
+        margin-top: 45px;
+    }
+
+    .blog_title h6 {
+        margin-bottom: 20px;
+    }
+
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        top: -165px;
+        height: 60px;
+        width: 38px;
+        line-height: 60px;
+        border: 1px solid #254487;
+        text-align: center;
+        border-radius: 2px;
+        font-size: 25px;
+        color: #254487;
+        transition: 0.5s;
+    }
+
+    .card-header .accicon {
+        float: right;
+        font-size: 27px;
+        width: 1.2em;
+        color: #254487;
+        margin: -47px -19px 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .new_banner {
+        height: 110vh;
+    }
+    .india_banner{
+        height: 40vh;
+    }
+    .india_banner_form{
+        display: none;
+    }
+    .banner_heading{
+        text-align: left;
+        font-size: 40px;
+    }
+    .india_banner p{
+        text-align: left;
+        font-size: 21px;
+    }
+    .banner_btn{
+        display: block;
+        border: 2px solid #fff;
+        border-radius: 25px;
+        font-size: 16px;
+        color: #fff;
+        padding: 12px 18px;
+        font-weight: 600;
+        margin: 10px 0 0 0;
+        text-transform: capitalize;
+    }
+    .banner_btn:hover{
+        color: #fff;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .about_img {
+        text-align: center;
+    }
+
+    .con_title h3 {
+        color: #fff;
+    }
+
+    .ribbon {
+        height: 28px;
+    }
+
+    .con_content {
+        height: 340px;
+    }
+
+    .con_layer {
+        height: 340px;
+    }
+
+    .title h2 {
+        color: #000;
+        font-size: 28px;
+    }
+
+    .guid_content {
+        margin-bottom: 20px;
+        padding: 0 0 0 20px;
+    }
+
+    .guide_img {
+        text-align: center;
+    }
+
+    .guide_img img {
+        width: auto;
+    }
+    .guide_sub_head{
+        font-size: 20px !important;
+    }
+    .conn_text h4 {
+        font-size: 1.8rem;
+        color: #fff;
+    }
+
+    .connect_btn {
+        border: 2px solid #E02845;
+        border-radius: 25px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #E02845;
+        padding: 8px 16px;
+        margin: 114px 226px 0 0;
+    }
+
+    .abroad_btn {
+        margin: 0;
+    }
+    .india_btn{
+        margin: 0;
+    }
+    /* .con_data {
+        height: 275px;
+    } */
+
+    .faq_img {
+        display: none;
+    }
+
+    #myCarousel {
+        width: 100%;
+    }
+
+    .carousel .carousel-item {
+        min-height: 0;
+        width: 100%;
+    }
+
+    .carousel {
+        padding-bottom: 30px;
+    }
+
+    .choose_img_main {
+        margin-bottom: 70px;
+    }
+
+    .banner_content h1 {
+        font-size: 40px;
+    }
+
+    .banner_content p {
+        font-size: 20px;
+    }
+
+    .why-us {
+        height: 40vh;
+    }
+
+
+    .why_container {
+        padding-top: 35px;
+    }
+
+    .why_container h1 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .about_text {
+        line-height: 1.7;
+        font-size: 15px;
+        font-weight: 500;
+        /* text-align: center; */
+    }
+
+    .banner2_btn {
+        font-size: 17px;
+        border-radius: 25px;
+        padding: 10px 25px;
+        background: #E02845;
+        color: #fff;
+    }
+
+    .new_banner2 {
+        height: 50vh;
+    }
+
+    .banner_content_div {
+        height: 50vh;
+    }
+
+    .req_img_div {
+        display: none;
+    }
+
+    .req_cont_div {
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+
+    .faq_sec {
+        margin-top: 45px;
+    }
+
+    .blog_title h6 {
+        margin-bottom: 20px;
+    }
+
+    /* carousel  */
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        top: 0;
+        height: 45px;
+        width: 50px;
+        line-height: 45px;
+        border: 1px solid #254487;
+        text-align: center;
+        border-radius: 2px;
+        font-size: 28px;
+        color: #254487;
+        transition: 0.5s;
+        margin-top: 15px;
+    }
+
+    .owl-next {
+        right: 0;
+    }
+
+    .owl-prev {
+        left: 0;
+    }
+
+    .whyUs {
+        height: auto;
+    }
+
+    .why_title {
+        padding: 25px 0 12px 0;
+    }
+
+    .why_title h2 {
+        font-size: 28px;
+    }
+
+    .choose_img_main ul {
+        padding: 28px;
+    }
+
+
+    .carousel-control-prev {
+        left: 43%;
+        top: 111px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 111px;
+        display: none;
+    }
+
+    .carousel-control-next {
+        right: 44%;
+        display: none;
+    }
+
+    .why_abroad_img {
+        display: none;
+    }
+
+    .card-header .accicon {
+        margin: -31px -19px 0 0;
+    }
+
+    .abroad_card-header .accicon {
+        float: right;
+        font-size: 30px !important;
+        width: 0.9em;
+        color: #fff;
+        margin: -36px 0px 0 0 !important;
+    }
+
+    .common_title h1 {
+        font-size: 30px;
+    }
+    .dubai-knowledge-demo{
+        text-align: center !important;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .from-box select {
+        height: 37px;
+    }
+
+    .from-box input {
+        height: 37px;
+    }
+
+    .about_img {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .common_style {
+        margin: 30px 0px !important;
+    }
+    .con_title h3 {
+        color: #fff;
+    }
+
+    .ribbon {
+        height: 37px;
+    }
+
+    .con_layer {
+        height: auto;
+    }
+
+    .con_content {
+        height: auto;
+    }
+
+    .title h2 {
+        color: #000;
+        font-size: 28px;
+    }
+
+    .prefer_title h2 {
+        color: #fff !important;
+        font-size: 25px;
+    }
+
+    .guid_content {
+        margin-bottom: 20px;
+        padding: 0 0 0 20px;
+    }
+
+    .conn_text h4 {
+        font-size: 1.8rem;
+        color: #fff;
+    }
+
+    /* .con_data {
+        height: 230px;
+    } */
+
+    .con_data img {
+        position: relative;
+        width: auto;
+        height: 140px;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    .quest_img {
+        position: absolute;
+        right: -20px;
+        height: 109px;
+        width: auto;
+        top: -32px;
+    }
+    .connect_btn {
+        border: 2px solid #E02845;
+        border-radius: 25px;
+        font-size: 13px;
+        font-weight: 700;
+        color: #E02845;
+        padding: 8px 16px;
+        margin: 104px 213px 0 0;
+    }
+
+    .abroad_btn {
+        margin: 0;
+    }
+    .india_btn{
+        margin: 0;
+    }
+    .faq_content {
+        background: transparent;
+    }
+
+
+    .faq_img {
+        display: none;
+    }
+
+    .blog_selected {
+        height: 100%;
+    }
+
+    .carousel .carousel-item {
+        min-height: 0;
+    }
+
+    .carousel {
+        padding-bottom: 15px;
+    }
+
+    .choose_img2::before {
+        padding: 149px 105px 136px 133px;
+    }
+
+    .why-us {
+        height: 30vh;
+    }
+
+    .why_container {
+        /* padding-top: 20px; */
+        margin: auto;
+    }
+
+    .why_container h1 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .about_text {
+        line-height: 1.7;
+        font-size: 15px;
+        font-weight: 500;
+        /* text-align: center; */
+    }
+
+    .banner2_btn {
+        font-size: 17px;
+        border-radius: 25px;
+        padding: 10px 25px;
+        background: #E02845;
+        color: #fff;
+    }
+
+    .new_banner2 {
+        height: 50vh;
+    }
+
+    .banner_content_div {
+        height: 50vh;
+    }
+
+    .req_img_div {
+        display: none;
+    }
+
+    .req_cont_div {
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+
+    .faq_sec {
+        margin-top: 45px;
+    }
+
+    .blog_title h6 {
+        margin-bottom: 20px;
+    }
+
+    .whyus_container {
+        height: 475px;
+    }
+
+    .guid_title {
+        margin: 0;
+    }
+
+    .guide_img {
+        text-align: center;
+    }
+
+    .guide_img img {
+        width: 100%;
+    }
+
+    .conn_text {
+        margin-top: -24px !important;
+        margin-left: 35px !important;
+    }
+    .india_btn {
+        border: 2px solid #fff;
+        border-radius: 25px;
+        font-size: 10px;
+        font-weight: 700;
+        color: #fff;
+        padding: 2px 12px;
+        margin: 0;
+    }
+    /* carousel  */
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        top: 0;
+        height: 45px;
+        width: 30px;
+        line-height: 45px;
+        border: 1px solid #254487;
+        text-align: center;
+        border-radius: 2px;
+        font-size: 28px;
+        color: #254487;
+        transition: 0.5s;
+        margin-top: 15px;
+    }
+
+    .owl-next {
+        right: 0;
+    }
+
+    .owl-prev {
+        left: 0;
+    }
+
+    .card-header .accicon {
+        float: right;
+        font-size: 27px;
+        width: 1.2em;
+        color: #254487;
+        margin: -32px -10px 0 0;
+    }
+
+
+    .abroad_card-header .accicon {
+        float: right;
+        font-size: 30px !important;
+        width: 0.9em;
+        color: #fff;
+        margin: -36px 0px 0 0 !important;
+    }
+
+    .choose_img_main {
+        margin-bottom: 30px;
+    }
+
+    .blog_title {
+        margin-top: 27px;
+    }
+
+    .carousel-control-prev {
+        left: 40%;
+        top: 111px;
+        display: none;
+    }
+
+    .carousel-control-next {
+        right: 40%;
+        display: none;
+    }
+    .int_div .item {
+        height: 134px;
+        width: 135px;
+        margin: auto;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .india_banner{
+        height: 26vh;
+    }
+    .india_banner_form{
+        display: none;
+    }
+    .banner_heading{
+        text-align: left;
+    }
+    .india_banner p{
+        text-align: left;
+        font-size: 14px;
+    }
+    .banner_btn{
+        display: block;
+        border: 2px solid #fff;
+        border-radius: 25px;
+        font-size: 12px;
+        color: #fff;
+        padding: 7px 10px;
+        font-weight: 600;
+        margin: -16px 0 0 0;
+        text-transform: capitalize;
+    }
+    .banner_btn:hover{
+        color: #fff;
+    }
+    .banner_content h1 {
+        font-size: 35px;
+    }
+
+    .banner_content p {
+        font-size: 18px;
+    }
+
+    .why_title h2 {
+        font-size: 25px;
+    }
+
+    .why_title h2 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .common_sec {
+        margin: 35px 0;
+    }
+
+    .popular {
+        margin-top: 70px;
+    }
+
+    .faq_title {
+        margin-bottom: 25px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .why_choose_img {
+        margin: 47px 0;
+    }
+
+    .choose_img1::before {
+        position: absolute;
+        content: '';
+        border: 3px solid #254487;
+        padding: 132px;
+        border-radius: 13px;
+        z-index: -1;
+    }
+
+    .choose_img2::before {
+        padding: 145px 106px 111px 109px;
+    }
+
+    .connect_btn {
+        border: 2px solid #E02845;
+        border-radius: 25px;
+        font-size: 10px;
+        font-weight: 700;
+        color: #E02845;
+        padding: 5px 8px;
+        margin: 75px 144px 0 0;
+    }
+    .blog_video {
+        width: 578px;
+        height: 240px;
+    }
+    .blog_video iframe {
+        padding: 0 8px;
+    }
+    .abroad_btn {
+        margin: 0;
+    }
+    .india_btn{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .india_banner{
+        height: 20vh;
+    }
+}

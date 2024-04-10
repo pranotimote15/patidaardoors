@@ -1,0 +1,270 @@
+.category-breatcome_area {
+ 
+ background-position: center center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 141px 0 143px;
+}
+
+
+.breatcome_title_inner h2 {
+ color: #fff;
+ margin: 0;
+ font-size: 23px;
+ margin-bottom: 6px;
+ font-weight: 600;
+ text-align: center;
+ text-transform: uppercase;
+}
+.breatcome_content ul {
+ text-align: center;
+}
+.breatcome_content ul li {
+ list-style: none;
+ color: #fff;
+ font-size: 15px;
+ font-weight: 500;
+ text-transform: capitalize;
+}
+.breatcome_content ul li a {
+ color: #fff;
+ text-transform: uppercase;
+ font-size: 12px;
+ font-weight: 500;
+ margin-right: 5px;
+}
+.breatcome_content ul li a i {
+ margin-left: 5px;
+}
+
+
+/*Description section*/
+
+.category-description{
+  padding: 45px 0 70px;
+}
+
+/*Description section*/
+
+
+/*product category*/
+
+.case-study-section {
+    padding-bottom: 90px;
+    padding-top: 85px;
+}
+.single-case-study{
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+}
+.case-study-thumb {
+    position: relative;
+}
+.case-study-thumb:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(12,90,219,0.85);
+    transition: .5s;
+    transform: perspective(15em) rotateX(-90deg);
+    transform-origin: top;
+}
+.single-case-study:hover .case-study-thumb:after {
+    transform: perspective(0) rotateX(0);
+}
+.case-study-thumb img {
+    width: 100%;
+}
+.case-study-content {
+    position: absolute;
+    background: #fff;
+    padding: 10px 10px;
+    width: 83%;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: .5s;
+}
+.single-case-study:hover .case-study-content{
+    top: 62%;
+}
+.case-study-title h2 a {
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 600;
+}
+.case-category {
+    margin-top: 5px;
+    padding-bottom: 7px;
+}
+.case-category span {
+    color: #0C5ADB;
+}
+/* style-five */
+.style-five.case-study-section {
+    padding-top: 0;
+}
+.style-five .case-study-thumb:after {
+    display: none;
+}
+.style-five .case-study-thumb {
+    position: relative;
+    margin: 15px;
+}
+.style-five .case-study-thumb:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(12,90,219,0.85);
+    content: "";
+    opacity: 0;
+    transition: .3s;
+    top: 0;
+    left: 0;
+}
+.style-five .single-case-study:hover .case-study-thumb:before{
+    opacity: 1;
+}
+/* single-Case-area */
+.single-team-area.team-member-area{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.case-bg {
+    box-shadow: 6px 5px 30px rgba(0,0,0,0.12);
+    padding: 50px;
+}
+.single-case-thumb img{
+	width: 85%;
+}
+.case-info h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.case-info span {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #0C5ADB;
+}
+.case-info ul {
+    list-style: none;
+    margin-top: 30px;
+}
+.case-info ul li {
+    color: #616161;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+.case-info ul li span {
+    color: #616161;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.case-social{}
+.case-social a{
+	display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: #0C5ADB;
+    text-align: center;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.case-title h2 {
+    padding-bottom: 35px;
+	padding-top:50px;
+	font-size:23px;
+}
+.case-bg-2 {
+    box-shadow: 6px 5px 30px rgba(0,0,0,0.12);
+	padding: 50px;
+	margin-top: 70px;
+}
+/*End of category product*/
+
+/*Category cta*/
+
+.category-cta{
+  margin-bottom: 60px;
+}
+/*Category cta*/
+
+
+/*Download brochure*/
+
+.skills-section {
+    background: transparent url(./../images/call1.jpg) center center/cover repeat fixed;
+    padding-top: 145px;
+    padding-bottom: 130px;
+}
+.skills-content h3 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.skills-content h1 {
+    color: #fff;
+    font-weight: 700;
+}
+.skills-btn a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 35px;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    display: inline-block;
+}
+.skills-btn a:hover{
+    border: 1px solid #0c5adb;
+    background: #0c5adb;
+    color: #ffff;
+}
+/* style-two */
+.style-two .skills-content h3 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 500;
+}
+.style-two .skills-content h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 100px;
+}
+.style-two .skills-content h2 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -15px;
+}
+.style-two .skills-btn a {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 14px 35px;
+    text-transform: uppercase;
+    background: #0c5adb;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.style-two .skills-btn a:hover{
+    background: transparent; 
+    border: 1px solid #ffffff;
+}
+/*Download rochure*/
