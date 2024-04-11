@@ -212,7 +212,7 @@ body{
   padding: 0 10px;
 }
 #headerSection .navbarSec .content .logo img {
-  width: 200px;
+  width: 120px;
 }
 @media screen and (max-width: 800px) {
   #headerSection .navbarSec .content .logo img {
@@ -320,3 +320,7 @@ body{
 #headerSection .navbarSec .content .menu .phone img {
   width: 20px;
 }/*# sourceMappingURL=header.css.map */
+
+a{
+  text-decoration: none !important;
+}

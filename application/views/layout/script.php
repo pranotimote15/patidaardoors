@@ -27,7 +27,7 @@
 	<!-- theme js -->	
 	<script src="<?php echo  base_url() ?>assets/front/js/theme.js"></script>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
 <script>
@@ -92,28 +92,31 @@ if ($(window).scrollTop() > 50) {
 
 <script>
 $('.blog_carousel').owlCarousel({
-        nav: true,
-        navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right''></i>"],
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            992: {
-                items: 3
-            },
-            1920: {
-                items: 3
-            }
+    nav: true,
+    navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
+    loop: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        992: {
+            items: 3
+        },
+        1920: {
+            items: 3
         }
-    })
+    }
+});
 </script>
+
 <script>
 $('.product_carousel').owlCarousel({
         nav: true,
         navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right''></i>"],
+        loop: true,
         responsive: {
             0: {
                 items: 1
@@ -153,4 +156,9 @@ $(document).ready(function() {
  });
 
 });
+</script>
+
+
+<script>
+  AOS.init();
 </script>
